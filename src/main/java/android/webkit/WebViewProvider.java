@@ -19,7 +19,6 @@ package android.webkit;
 import android.annotation.NonNull;
 import android.annotation.Nullable;
 import android.annotation.SuppressLint;
-import android.annotation.SystemApi;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.Bitmap;
@@ -75,7 +74,6 @@ import java.util.function.Consumer;
  *
  * @hide Not part of the public API; only required by system implementors.
  */
-@SystemApi
 public interface WebViewProvider {
     //-------------------------------------------------------------------------
     // Main interface for backend provider of the WebView class.

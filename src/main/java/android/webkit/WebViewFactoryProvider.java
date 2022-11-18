@@ -17,7 +17,6 @@
 package android.webkit;
 
 import android.annotation.NonNull;
-import android.annotation.SystemApi;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Network;
@@ -31,7 +30,6 @@ import java.util.List;
  * implementation of this interface, and make it available to the WebView via mechanism TBD.
  * @hide
  */
-@SystemApi
 public interface WebViewFactoryProvider {
     /**
      * This Interface provides glue for implementing the backend of WebView static methods which
